@@ -5,6 +5,113 @@
 	(uuid "40623ece-3073-40a8-b178-83d1fa934255")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4010,6 +4117,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4375,6 +4632,18 @@
 		(uuid 835d1c3f-ed29-43a9-8536-eb3d1576340e)
 	)
 	(rectangle
+		(start 102.87 99.695)
+		(end 194.31 136.525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 95753c63-8bd5-4888-8f7d-998b4c640029)
+	)
+	(rectangle
 		(start 19.05 92.075)
 		(end 97.155 146.685)
 		(stroke
@@ -4475,6 +4744,18 @@
 		(uuid "009dffd1-30b2-4ffc-aa61-25717aee224c")
 	)
 	(junction
+		(at 78.74 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b244f8-30bd-440a-a43e-252c775c9aa7")
+	)
+	(junction
+		(at 167.64 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0881bf78-4c22-41a3-83e5-6a9359542bd9")
+	)
+	(junction
 		(at 104.14 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4491,6 +4772,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25a2e83c-eae7-4930-95c0-534a696844ba")
+	)
+	(junction
+		(at 137.16 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed4d483-f4e8-4c03-bc50-e27cd1f6626e")
 	)
 	(junction
 		(at 76.2 215.9)
@@ -4595,6 +4882,12 @@
 		(uuid "8932f5be-336b-415c-b465-ea3a9bc80142")
 	)
 	(junction
+		(at 246.38 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd9a049-5910-43e3-a571-23ce4aa1afff")
+	)
+	(junction
 		(at 398.78 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4649,6 +4942,12 @@
 		(uuid "a74e6988-b944-447b-af4e-591e9f9df7c3")
 	)
 	(junction
+		(at 78.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9b3096c-31e5-4e34-96de-e5d6b5b75700")
+	)
+	(junction
 		(at 71.12 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4671,6 +4970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d45439d7-5e91-400e-8ec1-34b96afad347")
+	)
+	(junction
+		(at 245.11 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8644b72-62a7-4cc9-be78-60a12bd73132")
 	)
 	(junction
 		(at 241.3 99.06)
@@ -4753,10 +5058,6 @@
 	(no_connect
 		(at 336.55 193.04)
 		(uuid "551f5867-9cd1-4abe-9959-aecafacc2770")
-	)
-	(no_connect
-		(at 260.35 68.58)
-		(uuid "573c86c6-923c-4f7e-85ed-e15905d7aadd")
 	)
 	(no_connect
 		(at 306.07 68.58)
@@ -5450,6 +5751,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a67193-4d32-4e39-bea0-71ca9d15fe51")
+	)
+	(wire
+		(pts
 			(xy 49.53 260.35) (xy 55.88 260.35)
 		)
 		(stroke
@@ -5710,6 +6021,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 60.96) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127ae888-b738-41de-9aa1-5f7212cf93ee")
+	)
+	(wire
+		(pts
 			(xy 354.33 86.36) (xy 360.68 86.36)
 		)
 		(stroke
@@ -5717,6 +6038,16 @@
 			(type default)
 		)
 		(uuid "135af47f-f7c7-4d04-b9c8-7ea033bf9c71")
+	)
+	(wire
+		(pts
+			(xy 242.57 151.13) (xy 245.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d39253-e519-4e8f-97c4-b91e4c81cc3d")
 	)
 	(wire
 		(pts
@@ -5827,6 +6158,16 @@
 			(type default)
 		)
 		(uuid "1f7a77ae-6450-4372-96d4-7031d2066472")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe57873-5a09-468f-83bb-441c52f8c675")
 	)
 	(bus
 		(pts
@@ -5990,6 +6331,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 35.56) (xy 241.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1572cd-7c0b-4c5c-a9f2-b22f65f03f77")
+	)
+	(wire
+		(pts
+			(xy 246.38 55.88) (xy 246.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6800ea-ecf9-474e-bf8e-ddf6b68611b2")
+	)
+	(wire
+		(pts
 			(xy 345.44 68.58) (xy 344.17 68.58)
 		)
 		(stroke
@@ -6100,6 +6461,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ffb6f4-3a61-4a33-8564-8ae8cb32a439")
+	)
+	(wire
+		(pts
 			(xy 241.3 116.84) (xy 250.19 116.84)
 		)
 		(stroke
@@ -6177,6 +6548,16 @@
 			(type default)
 		)
 		(uuid "3c4caf5f-307c-4c24-ba80-628bd749ed05")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.3) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9b03bf-dcf2-4235-84de-75c6980a289b")
 	)
 	(wire
 		(pts
@@ -6290,6 +6671,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 147.32) (xy 250.19 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474da0f2-5048-4f00-946d-2dd8c36a6eb0")
+	)
+	(wire
+		(pts
 			(xy 33.02 245.11) (xy 33.02 246.38)
 		)
 		(stroke
@@ -6347,6 +6738,16 @@
 			(type default)
 		)
 		(uuid "4a100dd5-fc8e-4dea-a724-e5ed6c96983c")
+	)
+	(wire
+		(pts
+			(xy 250.19 35.56) (xy 250.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a27f319-df67-43c2-90e1-20ca58f29fa1")
 	)
 	(wire
 		(pts
@@ -6560,6 +6961,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 58.42) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57568ffd-c487-418b-a6ec-b9ce9774e17e")
+	)
+	(wire
+		(pts
 			(xy 260.35 199.39) (xy 262.89 199.39)
 		)
 		(stroke
@@ -6750,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 81.28 66.04)
+			(xy 71.12 66.04) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6817,6 +7228,16 @@
 			(type default)
 		)
 		(uuid "6c9a9ac0-6aa8-4f0a-8df7-fd73635a9750")
+	)
+	(wire
+		(pts
+			(xy 241.3 55.88) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d776d27-9da5-4acd-b641-b98ccb76fcee")
 	)
 	(bus
 		(pts
@@ -7007,6 +7428,16 @@
 			(type default)
 		)
 		(uuid "7e7872c0-a8bd-4eb4-887f-3182fa21378d")
+	)
+	(wire
+		(pts
+			(xy 246.38 55.88) (xy 250.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9810d1-11e7-4825-9ae0-7ba16ab19a71")
 	)
 	(wire
 		(pts
@@ -7260,6 +7691,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 127) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943d7d09-07fe-4e51-bb24-932ebe95eef1")
+	)
+	(wire
+		(pts
 			(xy 331.47 55.88) (xy 331.47 68.58)
 		)
 		(stroke
@@ -7297,6 +7738,16 @@
 			(type default)
 		)
 		(uuid "993909d4-5776-4e9e-bfbb-9cb19e255131")
+	)
+	(wire
+		(pts
+			(xy 246.38 57.15) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9968a0f4-602d-4971-94b1-7d841aa49dfe")
 	)
 	(wire
 		(pts
@@ -7440,6 +7891,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9a234f-af7a-4820-afc5-c6402d7a52bd")
+	)
+	(wire
+		(pts
 			(xy 265.43 193.04) (xy 265.43 201.93)
 		)
 		(stroke
@@ -7447,6 +7908,26 @@
 			(type default)
 		)
 		(uuid "adb518d9-7d28-462c-8202-050a75f72573")
+	)
+	(wire
+		(pts
+			(xy 260.35 68.58) (xy 260.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec42d9e-e29b-4b2c-99b0-70cb0e1d5b3c")
+	)
+	(wire
+		(pts
+			(xy 245.11 147.32) (xy 245.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af56f80e-48bb-45f0-83d5-111298e9302d")
 	)
 	(wire
 		(pts
@@ -7610,7 +8091,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 147.32) (xy 250.19 147.32)
+			(xy 241.3 147.32) (xy 245.11 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7720,6 +8201,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 60.96) (xy 261.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d8cbfb-db5e-41a4-87bb-41262ea4f89c")
+	)
+	(wire
+		(pts
 			(xy 354.33 134.62) (xy 370.84 134.62)
 		)
 		(stroke
@@ -7820,7 +8311,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 81.28 60.96)
+			(xy 71.12 60.96) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7847,6 +8338,16 @@
 			(type default)
 		)
 		(uuid "da796156-6364-4cc7-a03f-9537bd2983ea")
+	)
+	(wire
+		(pts
+			(xy 261.62 58.42) (xy 261.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daea78a8-e5fb-4465-b9c3-e7b6fdfa4173")
 	)
 	(wire
 		(pts
@@ -8267,6 +8768,16 @@
 			(type default)
 		)
 		(uuid "f89d05c8-3c74-49b0-9d70-68b13c85dcf7")
+	)
+	(wire
+		(pts
+			(xy 137.16 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91a922f-2d24-46e0-bc76-8d807f4ec0bc")
 	)
 	(wire
 		(pts
@@ -8958,6 +9469,16 @@
 		)
 		(uuid "d0cde043-f7a6-44ac-99b7-61eef910fa48")
 	)
+	(label "~{NRST}"
+		(at 242.57 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1f96530-4e3a-4ea1-84eb-71eeabd98d44")
+	)
 	(label "PB5"
 		(at 275.59 68.58 90)
 		(effects
@@ -9057,6 +9578,16 @@
 			(justify left bottom)
 		)
 		(uuid "fdd10215-ee20-4da0-88e7-ec5879cdf252")
+	)
+	(label "~{NRST}"
+		(at 133.35 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff9fee5a-ef64-4b30-8817-841d719b0fea")
 	)
 	(global_label "VBAT"
 		(shape input)
@@ -9715,7 +10246,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 225.552 99.06 0)
+			(at 225.552 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18b3d1e3-3b39-40ce-8baa-94cbe6b3a3ad")
-		(property "Reference" "IC1"
+		(property "Reference" "U1"
 			(at 297.18 87.63 0)
 			(effects
 				(font
@@ -10951,7 +11482,7 @@
 		(instances
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
-					(reference "IC1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12306,6 +12837,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 170.18 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30b78eac-d3e4-480a-a82a-a787ffac1654")
+		(property "Reference" "#PWR0100"
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd066193-ba3f-46b4-bceb-fec66ab94660")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Microchip_Technology:MIC37100-3.3WS")
 		(at 68.58 66.04 180)
 		(unit 1)
@@ -12315,7 +12913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a791f7-105e-4d6d-9145-e2f8d0fa1186")
-		(property "Reference" "IC2"
+		(property "Reference" "U2"
 			(at 53.34 53.34 0)
 			(effects
 				(font
@@ -12425,7 +13023,7 @@
 		(instances
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
-					(reference "IC2")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12548,6 +13146,128 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata:GRM188R72A104KA35D")
+		(at 137.16 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38df2ad2-9f0f-47af-924a-57fd6afd6d6f")
+		(property "Reference" "C40"
+			(at 140.97 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 140.97 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata:GRM18x"
+			(at 40.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01A.pdf"
+			(at -59.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC, 0603"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -259.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R72A104KA35"
+			(at -359.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+			(at -459.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -559.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
+			(at -659.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51343849-6e23-4e60-9368-811b1eff57eb")
+		)
+		(pin "1"
+			(uuid "7887822f-64fd-48c5-a4ad-dbbddfcadfa9")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -12858,6 +13578,128 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata:PRF18BC471QB5RB")
+		(at 241.3 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47db2b9a-53a0-48c6-b19d-996b630c816a")
+		(property "Reference" "R38"
+			(at 243.84 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 243.84 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Murata:RESC1608X95N"
+			(at 337.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PRF18BC471QB5RB.pdf"
+			(at 437.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Murata 0E 0603 SMD Resistor, 1.6 x 0.8 x 0.8mm"
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 637.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-PRF18BC471QB5RB"
+			(at 737.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-PRF18BC471QB5RB"
+			(at 837.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 937.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PRF18BC471QB5RB"
+			(at 1037.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9ff7361-59c7-4943-b623-d2755dddc2a5")
+		)
+		(pin "1"
+			(uuid "77e116da-ca21-414a-8b6c-63b6d1c096a6")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -13440,6 +14282,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "688d2811-ae39-4813-9258-ef28bb17a330")
+		(property "Reference" "SW1"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c1b153f-7f8a-4a50-a0c5-9c4be4a9c447")
+		)
+		(pin "1"
+			(uuid "796ac2b1-5417-4e37-b263-59980e8c034b")
+		)
+		(instances
+			(project ""
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 260.35 201.93 180)
 		(unit 1)
@@ -13935,15 +14845,16 @@
 	)
 	(symbol
 		(lib_id "Murata:PRF18BC471QB5RB")
-		(at 234.95 95.25 180)
+		(at 250.19 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a17f96d-d8d1-4a8c-822d-f61d7294391b")
-		(property "Reference" "R3"
-			(at 224.7899 92.71 90)
+		(fields_autoplaced yes)
+		(uuid "8015d464-e6fe-4774-a4bd-f8bbce5dbeaf")
+		(property "Reference" "R39"
+			(at 252.73 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,8 +14862,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0E"
-			(at 227.076 92.71 90)
+		(property "Value" "10k"
+			(at 252.73 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,7 +14872,7 @@
 			)
 		)
 		(property "Footprint" "Murata:RESC1608X95N"
-			(at 220.98 -0.94 0)
+			(at 346.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13971,7 +14882,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PRF18BC471QB5RB.pdf"
-			(at 220.98 -100.94 0)
+			(at 446.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,8 +14891,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Murata 0E 0603 SMD RESISTOR , 1.6 x 0.8 x 0.8mm"
-			(at 234.95 95.25 0)
+		(property "Description" "Murata 0E 0603 SMD Resistor, 1.6 x 0.8 x 0.8mm"
+			(at 250.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13990,7 +14901,7 @@
 			)
 		)
 		(property "Height" "0.95"
-			(at 220.98 -300.94 0)
+			(at 646.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +14911,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-PRF18BC471QB5RB"
-			(at 220.98 -400.94 0)
+			(at 746.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,7 +14921,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-PRF18BC471QB5RB"
-			(at 220.98 -500.94 0)
+			(at 846.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14020,7 +14931,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 220.98 -600.94 0)
+			(at 946.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +14941,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PRF18BC471QB5RB"
-			(at 220.98 -700.94 0)
+			(at 1046.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14040,15 +14951,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "57f6afdd-6adf-4ec4-a3e4-59470b91b38f")
+			(uuid "62b367c9-e7ce-485d-a846-e6871f330313")
 		)
 		(pin "1"
-			(uuid "f1ffa610-4c4f-483b-91af-cba14c02418b")
+			(uuid "3e61065d-88eb-403b-a135-7377a8c8b8bf")
 		)
 		(instances
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
-					(reference "R3")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -14690,9 +15601,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90246df3-f28c-4450-97f0-fe17f1da511d")
-		(property "Reference" "Y1"
+		(property "Reference" "X1"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -14802,7 +15712,7 @@
 		(instances
 			(project ""
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
-					(reference "Y1")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -15249,6 +16159,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 250.19 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bf756a5-723c-48a9-9f2e-1264dcfa466b")
+		(property "Reference" "#PWR099"
+			(at 250.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8870002-dd36-4b58-85d1-8d37da7e7fec")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Murata:GRM188R72A104KA35D")
 		(at 81.28 247.65 270)
 		(unit 1)
@@ -15432,6 +16408,73 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7376b27-9369-473a-baf2-84151640fca8")
+		(property "Reference" "+5V1"
+			(at 81.28 68.0719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.28 70.6119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 73.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f05ce3a-1a8b-4f37-8ec2-d60582d98010")
+		)
+		(instances
+			(project ""
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "+5V1")
 					(unit 1)
 				)
 			)
@@ -15712,7 +16755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf5af5e8-1807-4fec-9645-0ea9676bd833")
-		(property "Reference" "Y3"
+		(property "Reference" "X3"
 			(at 54.61 166.3699 90)
 			(effects
 				(font
@@ -15818,7 +16861,127 @@
 		(instances
 			(project ""
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
-					(reference "Y3")
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata:PRF18BC471QB5RB")
+		(at 217.17 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c168ba46-3b05-455b-b551-add98c56a6b1")
+		(property "Reference" "R3"
+			(at 226.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0E"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Murata:RESC1608X95N"
+			(at 231.14 191.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PRF18BC471QB5RB.pdf"
+			(at 231.14 291.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Murata 0E 0603 SMD Resistor, 1.6 x 0.8 x 0.8mm"
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 231.14 491.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-PRF18BC471QB5RB"
+			(at 231.14 591.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-PRF18BC471QB5RB"
+			(at 231.14 691.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 231.14 791.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PRF18BC471QB5RB"
+			(at 231.14 891.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34010188-fac9-4fca-82a5-fe603bbc1923")
+		)
+		(pin "1"
+			(uuid "ae19634f-1664-41cc-914c-85826e45daae")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16327,6 +17490,72 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 241.3 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f7c396-7fbc-4615-83cd-37147289bdea")
+		(property "Reference" "#PWR098"
+			(at 241.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 241.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64680100-9ea8-4f65-9751-e471cec16f86")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -17697,6 +18926,73 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9292dd6-2d6a-4aff-96d4-265cb2c2782c")
+		(property "Reference" "+3.3V1"
+			(at 81.28 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.28 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f05ce3a-1a8b-4f37-8ec2-d60582d98010")
+		)
+		(instances
+			(project ""
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/00b9c292-f450-48ac-8b34-fee93c972b1e"
+					(reference "+3.3V1")
 					(unit 1)
 				)
 			)

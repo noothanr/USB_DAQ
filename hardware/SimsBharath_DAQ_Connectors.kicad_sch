@@ -4391,6 +4391,12 @@
 		(uuid "1b470de0-e10f-41dc-bf20-434187b44f32")
 	)
 	(junction
+		(at 194.31 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "232c1224-d2e3-4787-b242-5c7142d7c127")
+	)
+	(junction
 		(at 181.61 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4437,6 +4443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58fab1ff-6daf-4123-a4fc-a9c762a6258e")
+	)
+	(junction
+		(at 194.31 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f58a6cf-54d6-461a-b651-c958416d2ce1")
 	)
 	(junction
 		(at 162.56 166.37)
@@ -4843,15 +4855,6 @@
 		(uuid "617bba8b-2684-44f6-93f8-0e38d2c671a7")
 	)
 	(bus_entry
-		(at 261.62 34.29)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64fa7994-c00c-4099-8f2a-d5b9ea96a24f")
-	)
-	(bus_entry
 		(at 262.89 81.28)
 		(size 2.54 -2.54)
 		(stroke
@@ -4931,6 +4934,15 @@
 			(type default)
 		)
 		(uuid "7e71e625-349c-43a0-bc13-875c994c5e0b")
+	)
+	(bus_entry
+		(at 166.37 64.77)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8341a9ba-3b0f-46ba-a931-f6738ab47a30")
 	)
 	(bus_entry
 		(at 316.23 90.17)
@@ -5023,15 +5035,6 @@
 		(uuid "b2cbf685-6524-4c46-b6cc-41115f69199a")
 	)
 	(bus_entry
-		(at 261.62 36.83)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5a9670d-51f7-49a7-95b5-bcf26c75cd8b")
-	)
-	(bus_entry
 		(at 55.88 39.37)
 		(size -2.54 2.54)
 		(stroke
@@ -5102,6 +5105,15 @@
 			(type default)
 		)
 		(uuid "dabe32ef-5c65-419e-afd2-f53d79ebbd89")
+	)
+	(bus_entry
+		(at 166.37 62.23)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff0f43b-370a-41c8-9833-e08770374deb")
 	)
 	(bus_entry
 		(at 320.04 34.29)
@@ -5454,16 +5466,6 @@
 		)
 		(uuid "12ba9e7a-0ca8-4da2-9a38-81ae3e4ca44d")
 	)
-	(bus
-		(pts
-			(xy 261.62 36.83) (xy 261.62 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f5b327-0c99-4ac1-95fe-a77824ce2af4")
-	)
 	(wire
 		(pts
 			(xy 107.95 95.25) (xy 107.95 93.98)
@@ -5503,6 +5505,16 @@
 			(type default)
 		)
 		(uuid "18e8a368-9908-48df-8b24-c3247196222f")
+	)
+	(wire
+		(pts
+			(xy 270.51 31.75) (xy 271.78 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191742de-dc71-432e-95b5-9c62effcf5e7")
 	)
 	(wire
 		(pts
@@ -5746,6 +5758,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 82.55) (xy 195.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bad5f6b-0ae5-4c11-b62c-e202441e93b1")
+	)
+	(wire
+		(pts
 			(xy 229.87 208.28) (xy 226.06 212.09)
 		)
 		(stroke
@@ -5783,6 +5805,16 @@
 			(type default)
 		)
 		(uuid "32cd36c7-7daa-4f7b-a39d-0fd42d49d4bf")
+	)
+	(wire
+		(pts
+			(xy 194.31 86.36) (xy 194.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3369bbe8-4af7-4fef-b4c6-7dfadfcecd90")
 	)
 	(bus
 		(pts
@@ -5823,6 +5855,16 @@
 			(type default)
 		)
 		(uuid "37aa7766-939a-4f31-89f4-23fd4f0e28f0")
+	)
+	(bus
+		(pts
+			(xy 166.37 64.77) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38860117-fedf-4860-9c47-831d441af55b")
 	)
 	(wire
 		(pts
@@ -6356,6 +6398,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 34.29) (xy 271.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb33f22-3ccd-4318-b09e-5420198445a1")
+	)
+	(wire
+		(pts
 			(xy 213.36 231.14) (xy 214.63 231.14)
 		)
 		(stroke
@@ -6534,16 +6586,6 @@
 		)
 		(uuid "6c338407-5958-4918-b976-98657596159b")
 	)
-	(bus
-		(pts
-			(xy 261.62 34.29) (xy 261.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf2489e-0d6b-4475-ae9f-57a34520d1f8")
-	)
 	(wire
 		(pts
 			(xy 33.02 39.37) (xy 35.56 39.37)
@@ -6593,6 +6635,16 @@
 			(type default)
 		)
 		(uuid "705118bd-2e01-49dd-a40b-b4a8b53742a6")
+	)
+	(wire
+		(pts
+			(xy 194.31 60.96) (xy 194.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7055fa05-3885-4b22-a19e-5820b217808f")
 	)
 	(wire
 		(pts
@@ -6726,16 +6778,6 @@
 	)
 	(bus
 		(pts
-			(xy 260.35 38.1) (xy 261.62 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f02986b-ea57-4b8f-b828-68e5a6feba48")
-	)
-	(bus
-		(pts
 			(xy 262.89 83.82) (xy 262.89 86.36)
 		)
 		(stroke
@@ -6826,6 +6868,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 59.69) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85edc637-9354-4fcc-a968-b8c3fb85d381")
+	)
+	(wire
+		(pts
 			(xy 264.16 36.83) (xy 271.78 36.83)
 		)
 		(stroke
@@ -6886,16 +6938,6 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 38.1) (xy 260.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ac9a4b-85b8-4691-a615-c6932744b69f")
-	)
-	(bus
-		(pts
 			(xy 320.04 39.37) (xy 320.04 36.83)
 		)
 		(stroke
@@ -6903,6 +6945,16 @@
 			(type default)
 		)
 		(uuid "90fcea36-68da-4402-a8c4-7b1c566af1f2")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9106cb00-3d66-4f1a-bfac-c155d0ba016c")
 	)
 	(wire
 		(pts
@@ -7604,6 +7656,16 @@
 		)
 		(uuid "c55b5d18-9629-41f8-9be1-f0c9468eda66")
 	)
+	(bus
+		(pts
+			(xy 163.83 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6184b5a-56c2-4156-b8e0-26ccd531c272")
+	)
 	(wire
 		(pts
 			(xy 148.59 67.31) (xy 148.59 66.04)
@@ -7766,16 +7828,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 34.29) (xy 264.16 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc7e5a00-2401-4451-987d-dfa20bf17975")
-	)
-	(wire
-		(pts
 			(xy 214.63 260.35) (xy 217.17 262.89)
 		)
 		(stroke
@@ -7793,6 +7845,16 @@
 			(type default)
 		)
 		(uuid "cd22e765-ab99-44e7-b060-f748d349a3b7")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 168.91 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7ed76c-0c0d-4300-a41f-76f9a36031be")
 	)
 	(wire
 		(pts
@@ -7844,6 +7906,16 @@
 		)
 		(uuid "cffa8606-b436-4389-b570-0d0b38134d97")
 	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11eb1c3-664c-489a-aadb-0a12bfcff8e4")
+	)
 	(bus
 		(pts
 			(xy 320.04 52.07) (xy 320.04 60.96)
@@ -7894,15 +7966,15 @@
 		)
 		(uuid "d32285d6-0665-483f-953b-e1884982017e")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 271.78 31.75) (xy 264.16 31.75)
+			(xy 165.1 66.04) (xy 166.37 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d42cc2dc-e2af-4357-8f13-57fe7c9c3f1a")
+		(uuid "d35cbd2b-0d80-46c2-9dd6-08c02e90fccf")
 	)
 	(wire
 		(pts
@@ -7953,6 +8025,16 @@
 			(type default)
 		)
 		(uuid "d809929c-9041-488b-b293-a639a81c1266")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c639af-9f3e-49db-a292-1d3588bbb7b5")
 	)
 	(wire
 		(pts
@@ -8093,6 +8175,16 @@
 			(type default)
 		)
 		(uuid "e522979d-62a6-4868-8284-ecfa8527c48f")
+	)
+	(wire
+		(pts
+			(xy 194.31 99.06) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b50837-9642-426a-97e8-5424a1bf7420")
 	)
 	(bus
 		(pts
@@ -8434,6 +8526,16 @@
 		)
 		(uuid "fe1c8fc4-9796-47f5-a718-39da3ba676f0")
 	)
+	(bus
+		(pts
+			(xy 166.37 62.23) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe25464c-2eda-4536-8505-3d4df5bbd112")
+	)
 	(label "PB4"
 		(at 266.7 86.36 0)
 		(effects
@@ -8453,6 +8555,16 @@
 			(justify left bottom)
 		)
 		(uuid "0228b328-e5e0-42c0-9ee7-cd6699e23ffb")
+	)
+	(label "M_DAC0"
+		(at 195.58 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "068b6d31-5c1a-41fd-89c2-ec860aa367b8")
 	)
 	(label "PWM1"
 		(at 271.78 39.37 180)
@@ -8493,6 +8605,46 @@
 			(justify right bottom)
 		)
 		(uuid "12a1ff8f-f8c2-4b03-b626-8602605ecbf7")
+	)
+	(label "TX N"
+		(at 219.71 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1320a76c-534a-49dc-b372-95578ba21998")
+	)
+	(label "TX P"
+		(at 220.98 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1320a76c-534a-49dc-b372-95578ba21998")
+	)
+	(label "RX N"
+		(at 219.71 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1320a76c-534a-49dc-b372-95578ba21998")
+	)
+	(label "RX P"
+		(at 219.71 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1320a76c-534a-49dc-b372-95578ba21998")
 	)
 	(label "UART2_RX"
 		(at 378.46 39.37 180)
@@ -8644,6 +8796,16 @@
 		)
 		(uuid "4aa4ab7d-315f-47df-9d86-7ed7f2e58553")
 	)
+	(label "DAC0"
+		(at 176.53 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5177d202-b2ef-4687-b89f-f81859563e86")
+	)
 	(label "PC3"
 		(at 215.9 83.82 0)
 		(effects
@@ -8673,16 +8835,6 @@
 			(justify right bottom)
 		)
 		(uuid "566ca423-8dbe-42b9-bc55-d9aab6218af4")
-	)
-	(label "DAC1"
-		(at 271.78 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "584ed121-a250-4907-a976-4911f7352d8c")
 	)
 	(label "I2C1_SCL"
 		(at 369.57 44.45 0)
@@ -8814,15 +8966,15 @@
 		)
 		(uuid "76e12980-7b99-4836-9c05-9d1bedde75de")
 	)
-	(label "DAC0"
-		(at 271.78 34.29 180)
+	(label "M_DAC0"
+		(at 270.51 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "790af2b2-f88f-40e2-b289-33e8afcb371a")
+		(uuid "78b14162-4d7b-481a-8455-d1f90a593020")
 	)
 	(label "PD5"
 		(at 322.58 90.17 0)
@@ -8893,6 +9045,26 @@
 			(justify left bottom)
 		)
 		(uuid "8ceee457-1c78-4237-9699-1689550aecd0")
+	)
+	(label "M_DAC1"
+		(at 270.51 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d2687bc-3e86-4920-af64-15c08af5a268")
+	)
+	(label "DAC1"
+		(at 176.53 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d367c02-9a50-469e-af0f-d4f5f3d03049")
 	)
 	(label "SPI4_MOSI"
 		(at 330.2 31.75 180)
@@ -8973,6 +9145,16 @@
 			(justify left bottom)
 		)
 		(uuid "a79d6ccd-5392-4c18-82db-a57610de1935")
+	)
+	(label "M_DAC1"
+		(at 195.58 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae0d84e2-ea17-4466-a8ef-0ec98d409997")
 	)
 	(label "PB7"
 		(at 266.7 93.98 0)
@@ -9420,6 +9602,17 @@
 		)
 		(uuid "37c767e0-e474-4a70-955c-667d281b4ede")
 	)
+	(hierarchical_label "{DAC0 DAC1}"
+		(shape bidirectional)
+		(at 163.83 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b5b83d3-5cd4-463d-9c54-ee432a93a2e7")
+	)
 	(hierarchical_label "ETH_RMII_TXD0"
 		(shape bidirectional)
 		(at 137.16 215.9 0)
@@ -9639,17 +9832,6 @@
 			(justify right)
 		)
 		(uuid "9e88e53f-6035-4ceb-83c9-502f4128f2a2")
-	)
-	(hierarchical_label "{DAC0 DAC1}"
-		(shape bidirectional)
-		(at 259.08 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b23b2e35-822d-451b-ae87-30d775880d2f")
 	)
 	(hierarchical_label "ETH_RMII_CRS_DV"
 		(shape bidirectional)
@@ -10612,7 +10794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "156d8173-a789-4af8-ac9b-b8c020b63fba")
-		(property "Reference" "Y2"
+		(property "Reference" "X2"
 			(at 39.37 203.2 0)
 			(effects
 				(font
@@ -10722,7 +10904,7 @@
 		(instances
 			(project ""
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
-					(reference "Y2")
+					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -11861,7 +12043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e10decd-94ae-46c8-b3b7-0c328a292306")
-		(property "Reference" "IC3"
+		(property "Reference" "U3"
 			(at 134.62 206.9398 0)
 			(effects
 				(font
@@ -12034,7 +12216,7 @@
 		(instances
 			(project ""
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
-					(reference "IC3")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12157,6 +12339,126 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata:PRF18BC471QB5RB")
+		(at 194.31 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3250e74e-96ee-4be8-a8f3-673e5b103553")
+		(property "Reference" "R37"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Murata:RESC1608X95N"
+			(at 180.34 -13.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PRF18BC471QB5RB.pdf"
+			(at 180.34 -113.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Murata 0E 0603 SMD Resistor, 1.6 x 0.8 x 0.8mm"
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 180.34 -313.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-PRF18BC471QB5RB"
+			(at 180.34 -413.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-PRF18BC471QB5RB"
+			(at 180.34 -513.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 180.34 -613.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PRF18BC471QB5RB"
+			(at 180.34 -713.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c73137e-baf1-4c74-8cbc-fc76dce63e4b")
+		)
+		(pin "1"
+			(uuid "23f475f2-a65c-4ed5-8827-f20b3ba725d5")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -13004,6 +13306,72 @@
 			(project ""
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60cdac72-4538-429e-b353-b42f213083d2")
+		(property "Reference" "#PWR097"
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4cf3997-2526-4aff-b921-4cf5d07eade7")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -13986,6 +14354,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Murata:GRM188R72A104KA35D")
+		(at 194.31 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f6e56e6-39c8-41b5-a517-7309782cbfa9")
+		(property "Reference" "C39"
+			(at 187.706 92.2019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 187.706 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata:GRM18x"
+			(at 98.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01A.pdf"
+			(at -1.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC, 0603"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -201.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R72A104KA35"
+			(at -301.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+			(at -401.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -501.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
+			(at -601.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a9b72e5-fcb6-4fb6-bf00-ed44777c28ea")
+		)
+		(pin "1"
+			(uuid "58e1416d-dbe8-4d9c-8086-b66ad0733164")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Murata:PRF18BC471QB5RB")
 		(at 127 76.2 0)
 		(unit 1)
@@ -14353,6 +14842,126 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata:PRF18BC471QB5RB")
+		(at 194.31 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83952b00-3354-41ce-8e85-3ebaf7ac16ee")
+		(property "Reference" "R36"
+			(at 185.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Murata:RESC1608X95N"
+			(at 180.34 -36.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PRF18BC471QB5RB.pdf"
+			(at 180.34 -136.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Murata 0E 0603 SMD Resistor, 1.6 x 0.8 x 0.8mm"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 180.34 -336.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-PRF18BC471QB5RB"
+			(at 180.34 -436.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-PRF18BC471QB5RB"
+			(at 180.34 -536.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 180.34 -636.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PRF18BC471QB5RB"
+			(at 180.34 -736.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed78711f-2027-4c3b-9fc4-2e0cfd33dea7")
+		)
+		(pin "1"
+			(uuid "cc6de3b6-7a02-47d5-a913-a2c8fc253155")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -17615,7 +18224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb82f6dd-adf1-4a83-84c4-fc30e3e42565")
-		(property "Reference" "T1"
+		(property "Reference" "U4"
 			(at 199.39 208.28 0)
 			(effects
 				(font
@@ -17761,7 +18370,7 @@
 		(instances
 			(project ""
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
-					(reference "T1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -18805,6 +19414,193 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f442a470-25f0-4308-9315-a3848d8263cd")
+		(property "Reference" "#PWR096"
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54dba94-8f5c-4a24-b969-6bc7456ebf3d")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Murata:GRM188R72A104KA35D")
+		(at 194.31 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f84368f8-24c5-493e-aaab-9fa5bb5497a0")
+		(property "Reference" "C38"
+			(at 187.706 66.8019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 187.706 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Murata:GRM18x"
+			(at 98.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01A.pdf"
+			(at -1.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC, 0603"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -201.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R72A104KA35"
+			(at -301.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+			(at -401.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -501.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
+			(at -601.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5ca96e7-f06b-4a57-a039-d03b8c09e643")
+		)
+		(pin "1"
+			(uuid "48cb7a09-112a-4011-b3c2-cedabfe82945")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "C38")
 					(unit 1)
 				)
 			)
