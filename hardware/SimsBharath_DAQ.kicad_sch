@@ -59,6 +59,16 @@
 		)
 		(uuid "3b75460a-a80d-40ab-ac61-21d797d36863")
 	)
+	(wire
+		(pts
+			(xy 156.21 97.79) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4008ca0c-7e49-42d1-a43e-5af28f075274")
+	)
 	(bus
 		(pts
 			(xy 156.21 129.54) (xy 177.8 129.54)
@@ -81,7 +91,7 @@
 	)
 	(bus
 		(pts
-			(xy 156.21 95.25) (xy 177.8 95.25)
+			(xy 156.21 92.71) (xy 177.8 92.71)
 		)
 		(stroke
 			(width 0)
@@ -171,6 +181,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 95.25) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dae013-5c57-414f-a746-62b871756485")
+	)
+	(wire
+		(pts
 			(xy 156.21 114.3) (xy 177.8 114.3)
 		)
 		(stroke
@@ -229,15 +249,15 @@
 		)
 		(uuid "a184863a-cdae-4522-9a5e-69230b62fc43")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 156.21 92.71) (xy 177.8 92.71)
+			(xy 156.21 100.33) (xy 177.8 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abbb142a-04b7-4526-862d-d3a213bf31fc")
+		(uuid "ae6c6da2-9604-4984-a4a3-2630598e7b4a")
 	)
 	(wire
 		(pts
@@ -404,7 +424,7 @@
 			)
 		)
 		(pin "{DAC0 DAC1}" bidirectional
-			(at 156.21 95.25 0)
+			(at 156.21 92.71 0)
 			(uuid "a526d8b7-89a6-4824-8a49-3e92a7cb3d65")
 			(effects
 				(font
@@ -713,9 +733,29 @@
 				(justify right)
 			)
 		)
-		(pin "{USB_FS_VBUS USB_FS_DM USB_FS_DP}" bidirectional
-			(at 156.21 92.71 0)
-			(uuid "f5ad673e-5f9b-40c3-a877-6599d255d108")
+		(pin "USB_FS_D N" bidirectional
+			(at 156.21 95.25 0)
+			(uuid "947bc801-37ec-47dc-b5b2-115a7e69de37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_FS_D P" bidirectional
+			(at 156.21 97.79 0)
+			(uuid "4c02a5b3-4e5e-4222-9bd7-aad78255ec15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_FS_VBUS" bidirectional
+			(at 156.21 100.33 0)
+			(uuid "4d838c07-1429-44b8-a2bb-8411ba8d2d78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +826,7 @@
 			)
 		)
 		(pin "{DAC0 DAC1}" bidirectional
-			(at 177.8 95.25 180)
+			(at 177.8 92.71 180)
 			(uuid "728bccd3-6cfb-4cc1-987e-89ef45469c38")
 			(effects
 				(font
@@ -1095,9 +1135,29 @@
 				(justify left)
 			)
 		)
-		(pin "{USB_FS_VBUS USB_FS_DM USB_FS_DP}" bidirectional
-			(at 177.8 92.71 180)
-			(uuid "9583af59-baf1-42fc-804f-a3e721ebbe70")
+		(pin "USB_FS_D N" bidirectional
+			(at 177.8 95.25 180)
+			(uuid "105967eb-3da2-4aff-9ec1-8abb504981c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_FS_D P" bidirectional
+			(at 177.8 97.79 180)
+			(uuid "c4ad63bd-7122-42e6-b4d6-86c8c7fb40c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_FS_VBUS" bidirectional
+			(at 177.8 100.33 180)
+			(uuid "f42b8c8b-706a-455a-bf92-960fa9fadca4")
 			(effects
 				(font
 					(size 1.27 1.27)
