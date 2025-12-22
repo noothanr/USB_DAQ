@@ -251,16 +251,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 177.8 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae6c6da2-9604-4984-a4a3-2630598e7b4a")
-	)
-	(wire
-		(pts
 			(xy 156.21 111.76) (xy 177.8 111.76)
 		)
 		(stroke
@@ -753,16 +743,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB_FS_VBUS" bidirectional
-			(at 156.21 100.33 0)
-			(uuid "4d838c07-1429-44b8-a2bb-8411ba8d2d78")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963"
@@ -1148,16 +1128,6 @@
 		(pin "USB_FS_D P" bidirectional
 			(at 177.8 97.79 180)
 			(uuid "c4ad63bd-7122-42e6-b4d6-86c8c7fb40c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_FS_VBUS" bidirectional
-			(at 177.8 100.33 180)
-			(uuid "f42b8c8b-706a-455a-bf92-960fa9fadca4")
 			(effects
 				(font
 					(size 1.27 1.27)

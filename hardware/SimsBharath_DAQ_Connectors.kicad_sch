@@ -5,6 +5,177 @@
 	(uuid "582c4d52-ab73-4023-86b7-e42994ba792d")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -6919,6 +7090,16 @@
 		)
 		(uuid "8f0c4503-7b4e-4211-b70e-a204040ab3a0")
 	)
+	(wire
+		(pts
+			(xy 30.48 34.29) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9029ebbc-645d-4bab-99b9-c2ea8c31573a")
+	)
 	(bus
 		(pts
 			(xy 320.04 39.37) (xy 320.04 36.83)
@@ -7288,6 +7469,16 @@
 			(type default)
 		)
 		(uuid "ab640133-05bb-47a3-90dc-c62ad786e686")
+	)
+	(wire
+		(pts
+			(xy 44.45 53.34) (xy 48.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab80854d-d70d-4e0c-9887-2a1e35b0297a")
 	)
 	(wire
 		(pts
@@ -8719,6 +8910,16 @@
 		)
 		(uuid "2331f421-b0c3-48a3-b57f-563644362d1b")
 	)
+	(label "+5V-USB"
+		(at 48.26 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "251aaad9-4f91-46df-9905-18397f2110c1")
+	)
 	(label "ADC3_5"
 		(at 127 20.32 180)
 		(effects
@@ -8768,6 +8969,16 @@
 			(justify right bottom)
 		)
 		(uuid "348ae871-406d-499a-9e7c-3d508c64398f")
+	)
+	(label "+5V-JTAG"
+		(at 48.26 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38a81c1e-1572-4e0a-afea-970360f7e20a")
 	)
 	(label "PD1"
 		(at 322.58 80.01 0)
@@ -9038,6 +9249,26 @@
 			(justify left bottom)
 		)
 		(uuid "81102df9-60b2-4cec-b6cb-a9fd43dddd23")
+	)
+	(label "+5V-JTAG"
+		(at 30.48 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8153b501-d7d7-45f8-bc85-b78f185497d8")
+	)
+	(label "+5V-USB"
+		(at 40.64 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8153b501-d7d7-45f8-bc85-b78f185497d8")
 	)
 	(label "PB3"
 		(at 266.7 83.82 0)
@@ -9509,17 +9740,6 @@
 		)
 		(uuid "ff697b8a-882d-47a5-a522-e032a4449d33")
 	)
-	(hierarchical_label "USB_FS_VBUS"
-		(shape bidirectional)
-		(at 40.64 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0943f169-655b-4793-b2d5-7da8c514f18e")
-	)
 	(hierarchical_label "{UART2_TX UART2_RX}"
 		(shape bidirectional)
 		(at 365.76 39.37 180)
@@ -9761,6 +9981,17 @@
 			(justify right)
 		)
 		(uuid "5c813899-54be-4779-a29a-7a787236e577")
+	)
+	(hierarchical_label "+5V"
+		(shape bidirectional)
+		(at 44.45 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e0fe5c6-354c-4735-aeb2-b88d802c7dc2")
 	)
 	(hierarchical_label "~{nRST}"
 		(shape bidirectional)
@@ -11436,73 +11667,6 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "247cb3a8-f040-4945-8c6f-04aa933d9ba4")
-		(property "Reference" "#PWR041"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 31.75 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18c61dd8-3d0f-4313-8cd4-5a1b4fe8e0da")
-		)
-		(instances
-			(project ""
-				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15493,6 +15657,79 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 53.34 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c7507b4-d6d1-42ab-a713-261e1d4c512a")
+		(property "Reference" "J12"
+			(at 55.88 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 55.88 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0580599f-d53f-4e78-a370-7a1c562a3dff")
+		)
+		(pin "1"
+			(uuid "8b028f48-ee30-4150-9d36-572108ecbf06")
+		)
+		(pin "3"
+			(uuid "3073b8d6-b313-4c18-aa5c-b10913af6431")
+		)
+		(instances
+			(project ""
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "J12")
 					(unit 1)
 				)
 			)

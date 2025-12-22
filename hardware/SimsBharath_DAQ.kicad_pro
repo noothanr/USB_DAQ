@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./print1",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
