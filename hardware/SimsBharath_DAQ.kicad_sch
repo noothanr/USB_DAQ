@@ -9,6 +9,16 @@
 		(company "SIMS")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 156.21 139.7) (xy 177.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094b1556-3838-4afc-93d9-a3e3e236b625")
+	)
 	(bus
 		(pts
 			(xy 156.21 72.39) (xy 177.8 72.39)
@@ -69,15 +79,15 @@
 		)
 		(uuid "4008ca0c-7e49-42d1-a43e-5af28f075274")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 156.21 129.54) (xy 177.8 129.54)
+			(xy 156.21 134.62) (xy 177.8 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58cb83ae-a34a-4828-8c19-e9580a67dbdb")
+		(uuid "46152a01-edc9-4828-ac9f-8bc1ca41b7a4")
 	)
 	(bus
 		(pts
@@ -98,6 +108,16 @@
 			(type default)
 		)
 		(uuid "5b698381-87ec-4a21-9597-ec4945feedfa")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef6662f-a72d-42e7-b648-6fc874b10b7c")
 	)
 	(wire
 		(pts
@@ -128,16 +148,6 @@
 			(type default)
 		)
 		(uuid "700f0ebb-149d-4fe3-9fb4-b4e9b42a4f4e")
-	)
-	(bus
-		(pts
-			(xy 156.21 132.08) (xy 177.8 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72187fbb-0193-4abd-adf2-b676700ee7c1")
 	)
 	(wire
 		(pts
@@ -279,6 +289,16 @@
 		)
 		(uuid "bd38ed0f-8987-47dc-8f8b-b8e14b5d3161")
 	)
+	(wire
+		(pts
+			(xy 156.21 132.08) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde3d631-038c-4dec-a585-c4128591f53c")
+	)
 	(bus
 		(pts
 			(xy 156.21 77.47) (xy 177.8 77.47)
@@ -288,6 +308,26 @@
 			(type default)
 		)
 		(uuid "c2ad0252-5139-4b1f-90b7-905fb3781c88")
+	)
+	(wire
+		(pts
+			(xy 156.21 137.16) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa4d908-77e1-489c-9112-d36322b4f2fe")
+	)
+	(wire
+		(pts
+			(xy 156.21 142.24) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d867ba10-2c3f-4750-a960-83b3134f05f7")
 	)
 	(wire
 		(pts
@@ -361,7 +401,7 @@
 	)
 	(sheet
 		(at 98.425 33.02)
-		(size 57.785 104.775)
+		(size 57.785 111.125)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -385,7 +425,7 @@
 			)
 		)
 		(property "Sheetfile" "SimsBharath_DAQ_MCU.kicad_sch"
-			(at 98.425 138.3796 0)
+			(at 98.425 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,26 +556,6 @@
 		(pin "~{nRST}" bidirectional
 			(at 156.21 127 0)
 			(uuid "db0e96f2-3a60-4141-8574-05ec087fbc3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWM1[0..1]" bidirectional
-			(at 156.21 129.54 0)
-			(uuid "5e25c382-0994-4e1e-b81c-7f48d1b2e3a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWM[0..3]" bidirectional
-			(at 156.21 132.08 0)
-			(uuid "8c41edee-a82c-4d83-bff6-ba944a651f39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,6 +763,66 @@
 				(justify right)
 			)
 		)
+		(pin "PWM0" bidirectional
+			(at 156.21 129.54 0)
+			(uuid "a2196023-042d-43c5-9ba1-b46ebd243f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM1" bidirectional
+			(at 156.21 132.08 0)
+			(uuid "bfc36e82-ea41-4736-b770-a57ecde121ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM2" bidirectional
+			(at 156.21 134.62 0)
+			(uuid "ac6fae57-863c-4371-bb2b-04f49646ced5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3" bidirectional
+			(at 156.21 137.16 0)
+			(uuid "3bf7f689-f3df-4d62-b8b9-75e007b4c6e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM4" bidirectional
+			(at 156.21 139.7 0)
+			(uuid "07e11d1b-b7c3-494c-a1b5-5eafcc7f7dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM5" bidirectional
+			(at 156.21 142.24 0)
+			(uuid "6d9881a2-a607-475d-bd40-b28d6f660668")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963"
@@ -753,7 +833,7 @@
 	)
 	(sheet
 		(at 177.8 32.385)
-		(size 56.515 106.045)
+		(size 56.515 111.76)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -777,7 +857,7 @@
 			)
 		)
 		(property "Sheetfile" "SimsBharath_DAQ_Connectors.kicad_sch"
-			(at 177.8 139.0146 0)
+			(at 177.8 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,26 +988,6 @@
 		(pin "~{nRST}" bidirectional
 			(at 177.8 127 180)
 			(uuid "0986bd7a-911e-4144-9a82-42b6e0f93cb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PWM1[0..1]" bidirectional
-			(at 177.8 129.54 180)
-			(uuid "27226546-b5a6-499a-b87a-6ee918b8e011")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PWM[0..3]" bidirectional
-			(at 177.8 132.08 180)
-			(uuid "79190e14-53c5-4a86-943d-7b43aee7dd05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,6 +1188,66 @@
 		(pin "USB_FS_D P" bidirectional
 			(at 177.8 97.79 180)
 			(uuid "c4ad63bd-7122-42e6-b4d6-86c8c7fb40c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM0" bidirectional
+			(at 177.8 129.54 180)
+			(uuid "469bbd8f-1806-4848-bb6c-e04e18178446")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM1" bidirectional
+			(at 177.8 132.08 180)
+			(uuid "4733cab9-563f-43a0-b3b3-01e3f75f8241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM2" bidirectional
+			(at 177.8 134.62 180)
+			(uuid "38daa908-d6a4-45ac-829e-2779f8c2bff5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM3" bidirectional
+			(at 177.8 137.16 180)
+			(uuid "80a31b60-61b8-4579-a866-13b8efb3e475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM4" bidirectional
+			(at 177.8 139.7 180)
+			(uuid "5c91a397-af6c-4755-888a-1befc9f0aa7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM5" bidirectional
+			(at 177.8 142.24 180)
+			(uuid "8251e797-5496-443f-9287-0ff1af34e884")
 			(effects
 				(font
 					(size 1.27 1.27)
