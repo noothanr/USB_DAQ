@@ -9630,7 +9630,7 @@
 			)
 			(justify right)
 		)
-		(uuid "29aaf967-4ae0-41ce-a966-32be5c783864")
+		(uuid "29aaf967-4ae0-41ce-a966-32be5c783865")
 	)
 	(hierarchical_label "PWM0"
 		(shape bidirectional)
@@ -9641,7 +9641,7 @@
 			)
 			(justify right)
 		)
-		(uuid "29aaf967-4ae0-41ce-a966-32be5c783864")
+		(uuid "29aaf967-4ae0-41ce-a966-32be5c783866")
 	)
 	(hierarchical_label "PWM3"
 		(shape bidirectional)
@@ -9652,7 +9652,7 @@
 			)
 			(justify right)
 		)
-		(uuid "29aaf967-4ae0-41ce-a966-32be5c783864")
+		(uuid "29aaf967-4ae0-41ce-a966-32be5c783867")
 	)
 	(hierarchical_label "PWM4"
 		(shape bidirectional)
@@ -9663,7 +9663,7 @@
 			)
 			(justify right)
 		)
-		(uuid "29aaf967-4ae0-41ce-a966-32be5c783864")
+		(uuid "29aaf967-4ae0-41ce-a966-32be5c783868")
 	)
 	(hierarchical_label "PWM5"
 		(shape bidirectional)
@@ -9674,7 +9674,7 @@
 			)
 			(justify right)
 		)
-		(uuid "29aaf967-4ae0-41ce-a966-32be5c783864")
+		(uuid "29aaf967-4ae0-41ce-a966-32be5c783869")
 	)
 	(hierarchical_label "PC[0..7]"
 		(shape bidirectional)
@@ -15118,72 +15118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 220.98 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86389062-7037-43aa-984a-771beb97290e")
-		(property "Reference" "#PWR059"
-			(at 220.98 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7deeab15-f7b0-4374-836d-8fc1396c4e99")
-		)
-		(instances
-			(project "SimsBharath_DAQ"
-				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Molex:702471052")
 		(at 271.78 76.2 0)
 		(unit 1)
@@ -16667,6 +16601,72 @@
 			(project "SimsBharath_DAQ"
 				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b275b0-9224-42dd-a117-247ea078fa47")
+		(property "Reference" "#PWR059"
+			(at 220.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df210607-212d-4776-af37-41d1eed8316b")
+		)
+		(instances
+			(project "SimsBharath_DAQ"
+				(path "/bbb55367-1aa7-46ea-88d8-ce1ddc0fd963/868b9e21-e37c-4d93-baf9-b4839eaf8a01"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
